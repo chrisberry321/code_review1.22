@@ -6,7 +6,7 @@ var countUpTo =function(number) {
 
 var wrongInput = function(countUpTo) {
   if (countUpTo <= 0) {
-		if(alert('Number need to be positive!')){}
+		if(alert('HEY, try to get a little more posotive!')){}
 		else window.location.reload();
 	} else if (1<= countUpTo) {
 		return indexOutput(countUpTo);
