@@ -5,34 +5,66 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Multiples</title>
+    <title>code_review1.22</title>
   </head>
-  <body>
-    <div class="container">
-      <h1>Count Up to a Number Using Multiples</h1>
-
-      <form id="count">
-        <div class="form-group">
-          <label for="year">Enter a number you want to count up to:</label>
-          <input id="UpTo" type="number">
-        </div>
-
-        <div class="form-group">
-          <label for="year">Enter a number you want to count up by:</label>
-          <input id="UpBy" type="number">
-        </div>
-
-        <button type="submit" class="btn">Find out!</button>
-      </form>
-
-      <div id="result">
-        <p>
-          <ul class="listofresults">
-
-        </ul>
-        <span class="invalid"></span>
-      </p>
+  <body class="body">
+<!-- header -->
+    <div class="container-fluid">
+      <div class="header">
+        <h1><strong>Ping-Pong</strong></h1>
       </div>
     </div>
+
+<!-- sidebar -->
+    <div class="row">
+      <div class="col-xs-6 col-sm-3">
+        <div class="sidebar">
+          <h3><strong>About Ping Pong</strong></h3>
+          <h4><strong>Created by:</strong></h4>
+          <h5>Chris Berry</h5>
+          <h4><strong>GitHub Username/URL</strong></h4>
+          <p><a href="chrisberry321"></a>chrisberry321</p>
+          <h4><strong></strong>Level 2 Test for:</strong></h4>
+          <h5>Java</h5>
+        </div>
+      </div>
+
+<!-- body     -->
+      <div class="col-xs-6 col-sm-9">
+        <form id="count">
+          <div class="form-group">
+            <h3>Let's play!</h3>
+            <h4>Rules:</h4>
+            <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+              <ol>
+                <li>Numbers divisible by 3 become "ping"</li>
+                <li>Numbers divisible by 5 become "pong"</li>
+                <li>Numbers divisible by 15 become "pingpong"</li>
+              </ol>
+            <label for="year">Enter your number here:</label>
+            <input id="UpTo" type="number">
+            <button type="submit" class="btn">Ping Pong!</button>
+          </div>
+        </form>
+        <div id="result">
+          <p>
+            <ul class="listofresults">
+            </ul>
+          <span class="invalid"></span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+<!-- results -->
+
+      <!-- <div id="result">
+        <p>
+          <ul class="listofresults">
+          </ul>
+        <span class="invalid"></span>
+        </p>
+      </div> -->
+
   </body>
 </html>
